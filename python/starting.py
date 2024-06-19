@@ -79,15 +79,15 @@ print((A+txt)*C)
 #floor = it gives a closest integer , which is lesser or equal to the float value.
 # (integer deivison = //) iska matlab divide hi hota hai ye output se uski approximate choti value dega ex.(5.6 aaya to ye use 5 dega)
 
-R,Q=12,5
-D=R//Q
+R , Q = 12 , 5
+D = R // Q
 print(D)
 
 # if we are finding remainder some conditions are if (numerator is + and denominatore is + the result will be + )
 # n= (-) d=(-) result (+)            n= (+) d=(-) result (-)         n= (-) d=(+) result (+) 
 
-B,V=5,-2
-W=b%V
+B , V = 5 , -2
+W = b % V
 print(W)
 
 # Taking INPUT from user
